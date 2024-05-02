@@ -17,13 +17,13 @@ local raceTable={
 
 Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
     local race = Ext.Entity.Get(character).Race.Race
-	if raceTable[race] then
+	if not raceTable[race] then
         Ext.Net.BroadcastMessage("ChangeAppearanceCompleted", "OnEnd")
     end
 end)
 Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
     local race = Ext.Entity.Get(uuid).Race.Race
-	if raceTable[race] then
+	if not raceTable[race] then
         if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
 		    Ext.Net.BroadcastMessage("ChangeAppearanceStarted", "OnEnd")
         end
@@ -36,9 +36,6 @@ function SaveInit(character)
     end
     if not PersistentVars[character].Shine then
         PersistentVars[character].Shine = {}
-    end
-    if not PersistentVars[character].VirtualBody then
-        PersistentVars[character].VirtualBody = {}
     end
     if not PersistentVars[character].MakeupOpacity then
         PersistentVars[character].MakeupOpacity = {}
@@ -77,12 +74,6 @@ end
 
 -- index done, opacity done,
 Overrides = {
-    VirtualBody = {
-        Femme_NC = "1bb0b14c-f6e2-4b21-bdae-9675d20354ce",
-        Masc_NC = "01617cf2-7102-4e4e-be57-8cf51446207f",
-        FemmeStrong_NC = "f7d685b1-de78-4102-a55f-783cd3a022d8",
-        MascStrong_NC = "7b738132-65dc-420a-8d23-f9091ba27103"
-    },
     MakeupIndex = {
         "c9245d9f-0b91-4b1f-ac08-eca3c7924a7d",
         "cee284e1-7e9e-4ecb-b05c-cda88b4c01f9",
@@ -361,7 +352,6 @@ end
 
 Ext.Events.NetMessage:Subscribe(function(e) 
     local sender = Osi.GetCurrentCharacter(PeerToUserID(e.UserID))
-    local E = Ext.Entity.Get(sender).CharacterCreationStats
     SaveInit(sender)
     --Tattoo Buttons
     if (e.Channel == "tattooBody_Index1") then ApplyOverride(sender,"Index", 1) end
@@ -533,19 +523,7 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "makeupFaceAtlas1") then ApplyOverride(sender, "AtlasTexFaceMakeup", 1) end
     if (e.Channel == "makeupFaceAtlas2") then ApplyOverride(sender, "AtlasTexFaceMakeup", 2) end
     if (e.Channel == "makeupFaceAtlas3") then ApplyOverride(sender, "AtlasTexFaceMakeup", 3) end
-    if E then
-        if (e.Channel == "bodyTexVTNoCrackles") then 
-            if E.BodyType == 0 and E.BodyShape == 0 then 
-                ToggleOverride(sender, "VirtualBody", "Masc_NC")
-            elseif E.BodyType == 0 and E.BodyShape == 1 then
-                ToggleOverride(sender, "VirtualBody", "MascStrong_NC")
-            elseif E.BodyType == 1 and E.BodyShape == 0 then
-                ToggleOverride(sender, "VirtualBody", "Femme_NC")
-            elseif E.BodyType == 1 and E.BodyShape == 1 then
-                ToggleOverride(sender, "VirtualBody", "FemmeStrong_NC")
-            end
-        end
-    end
+
     if (e.Channel == "tattooFace_Index1") then ApplyOverride(sender, "HeadIndex", 1) end
     if (e.Channel == "tattooFace_Index2") then ApplyOverride(sender, "HeadIndex", 2) end
     if (e.Channel == "tattooFace_Index3") then ApplyOverride(sender, "HeadIndex", 3) end

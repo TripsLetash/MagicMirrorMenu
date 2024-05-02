@@ -32,7 +32,7 @@ tattooOptionsRow2 = tattooOptionsTable:AddRow()
 tattooOptionsRow3 = tattooOptionsTable:AddRow()
 tattooOptionsRow4 = tattooOptionsTable:AddRow()
 metallicCheckbox = tattooOptionsRow1:AddCell():AddCheckbox("Metallic")
-BodyNoCracklesCheckbox = tattooOptionsRow1:AddCell():AddCheckbox("No Crackles")
+
 HalfIllithidCheckbox = tattooOptionsRow1:AddCell():AddCheckbox("Half-Illithid")
 BodyAtlas1Button = tattooOptionsRow2:AddCell():AddButton("Body Atlas 1")
 HeadAtlas1Button = tattooOptionsRow2:AddCell():AddButton("Face Atlas 1")
@@ -500,7 +500,7 @@ MakeupAtlas2Button.OnClick = function() Ext.Net.PostMessageToServer("makeupFaceA
 MakeupAtlas3Button.OnClick = function() Ext.Net.PostMessageToServer("makeupFaceAtlas3", "OnClick") UpdateCC() end
 FaceTatsIntSelector.OnChange = function() Ext.Net.PostMessageToServer("tattooFace_Index"..FaceTatsIntSelector.Value[1], "OnChange") UpdateCC() end
 FaceMakeUpIntSelector.OnChange = function() Ext.Net.PostMessageToServer("makeupFace_Index"..FaceMakeUpIntSelector.Value[1], "OnChange") UpdateCC() end
-BodyNoCracklesCheckbox.OnChange = function() Ext.Net.PostMessageToServer("bodyTexVTNoCrackles", "OnChanged") UpdateCC() end
+
 tattooColorFaceButton1Red.OnClick = function() Ext.Net.PostMessageToServer("tattooColorFaceButton1Red", "OnClick") UpdateCC() end
 tattooColorFaceButton1Green.OnClick = function() Ext.Net.PostMessageToServer("tattooColorFaceButton1Green", "OnClick") UpdateCC() end
 tattooColorFaceButton1Blue.OnClick = function() Ext.Net.PostMessageToServer("tattooColorFaceButton1Blue", "OnClick") UpdateCC() end

@@ -5,7 +5,7 @@
 --                                                  --
 ------------------------------------------------------
 --- Windows
-w = Ext.IMGUI.NewWindow("WotD: Aasimar SEE Settings")
+w = Ext.IMGUI.NewWindow("Magic Mirror Menu")
 
 -- w:AddText("Test") -- test if you can add above tab bar (works)
 --- Tab Bar
@@ -40,7 +40,6 @@ tABO:AddText("For facetats; The tattoos stack in terms of RGB channels,")
 tABO:AddText("meaning you can have up to three pre-set tattoos together.")
 tABO:AddText("Select what's showing using the Layer Visibility checkboxes.")
 tABO:AddSeparatorText("Atlas Details")
-tABO:AddText("This menu overrides clown-makeup and HalfIllithid visuals.")
 tABO:AddText("So for this reason, buttons and options were added to remedy that.")
 tABO:AddText("The Atlas buttons swap the used Atlas for the particular visuals.")
 tABO:AddText("See Nexus Mods article on how to customise using the built-in Unique_Tav.")
@@ -56,7 +55,7 @@ tABO:AddText("")
 
 
 tCRED:AddDummy(0,5)
-tCRED:AddSeparatorText("Author:")
+tCRED:AddSeparatorText("Authors:")
 tCRED:AddText("Trips")
 tCRED:AddText("klementineQt")
 tCRED:AddSeparatorText("Credits:")
@@ -75,21 +74,7 @@ w.Open = false
 w:SetStyle("WindowMinSize", 500, 500)
 w:SetStyle("WindowRounding", 30)
 w:SetStyle("WindowBorderSize", 5)
-w:SetColor("WindowBg", {0.7824, 0.7824, 0.7824, 0.5})
-w:SetColor("TitleBg", {0.62, 0.07, 0.07, 0.5})
-w:SetColor("TitleBgActive", {0.9, 0.07, 0.07, 0.5})
-w:SetColor("TitleBgCollapsed", {0.42, 0.07, 0.07, 0.5})
-w:SetColor("Tab", {0.62, 0.07, 0.07, 0.5})
-w:SetColor("TabActive", {0.9, 0.07, 0.07, 0.5})
-w:SetColor("TabHovered", {0.42, 0.07, 0.07, 0.5})
-w:SetColor("TabUnfocused", {0.9, 0.07, 0.07, 0.5})
-w:SetColor("TabUnfocusedActive", {0.42, 0.07, 0.07, 0.5})
-w:SetColor("Header", {0.62, 0.07, 0.07, 0.5})
-w:SetColor("HeaderActive", {0.9, 0.07, 0.07, 0.5})
-w:SetColor("HeaderHovered", {0.42, 0.07, 0.07, 0.5})
-w:SetColor("CheckMark", {1, 0.39, 0.39, 0.5})
-w:SetColor("Border", {0.62, 0.07, 0.07, 0.5})
-w:SetColor("Button", {0.62, 0.07, 0.07, 0.5})
+
 
 ------------------------------------------------------
 --                                                  --
