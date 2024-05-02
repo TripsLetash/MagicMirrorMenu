@@ -66,19 +66,19 @@ FacetattooHideCheckboxB:SetColor("CheckMark", {0.72, 0.92, 1, 0.5})
 
 tattooHideCheckboxR = tattooHideRow2:AddCell():AddCheckbox("Body: Red")
 tattooHideCheckboxR:SetColor("Button", {1, 0, 0, 0.2})
-tattooHideCheckboxR.Checked = true
+tattooHideCheckboxR.Checked = false
 tattooHideCheckboxR:SetColor("CheckMark", {1, 0.39, 0.39, 0.5})
 tattooHideCheckboxG = tattooHideRow2:AddCell():AddCheckbox("Body: Green")
 tattooHideCheckboxG:SetColor("Button", {0, 1, 0, 0.2})
-tattooHideCheckboxG.Checked = true
+tattooHideCheckboxG.Checked = false
 tattooHideCheckboxG:SetColor("CheckMark", {0.72, 1, 0.75, 0.5})
 tattooHideCheckboxB = tattooHideRow2:AddCell():AddCheckbox("Body: Blue")
 tattooHideCheckboxB:SetColor("Button", {0, 0, 1, 0.2})
-tattooHideCheckboxB.Checked = true
+tattooHideCheckboxB.Checked = false
 tattooHideCheckboxB:SetColor("CheckMark", {0.72, 0.92, 1, 0.5})
 makeupHideCheckbox = tattooHideRow3:AddCell():AddCheckbox("MakeUp")
 makeupHideCheckbox:SetColor("Button", {1, 0, 0, 0.2})
-makeupHideCheckbox.Checked = true
+makeupHideCheckbox.Checked = false
 makeupHideCheckbox:SetColor("CheckMark", {1, 0.39, 0.39, 0.5})
 
 tattooColorHeader = CCBody:AddCollapsingHeader("Tattoo Color")
