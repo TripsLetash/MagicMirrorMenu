@@ -30,7 +30,7 @@
 					<attribute id="ID" type="FixedString" value="6380b7f9-87e6-4af5-a4ed-9fb453f560e5" />
 					<attribute id="Name" type="LSString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA_MSK" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/TATTOO/Skin_Atlas_Body_SHR_Tattoo_EXTRA_MSK.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/TATTOO/Skin_Atlas_Body_SHR_Tattoo_B_MSK.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA_MSK" />
 					<attribute id="Type" type="int32" value="1" />
@@ -43,7 +43,7 @@
 					<attribute id="ID" type="FixedString" value="fd031187-a9ef-4d78-9ca6-3d21caff2bfa" />
 					<attribute id="Name" type="LSString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA2_MSK" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/TATTOO/Skin_Atlas_Body_SHR_Tattoo_EXTRA2_MSK.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/TATTOO/Skin_Atlas_Body_SHR_Tattoo_C_MSK.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA2_MSK" />
 					<attribute id="Type" type="int32" value="1" />
@@ -69,7 +69,7 @@
 					<attribute id="ID" type="FixedString" value="9f914c05-8c8d-4b82-b16b-9708f53e05b8" />
 					<attribute id="Name" type="LSString" value="Trips_Skin_Atlas_Head_SHR_Tattoo_HEAD_MSK" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Tattoo_EXTRA_MSK.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Tattoo_B_MSK.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Trips_Skin_Atlas_Head_SHR_Tattoo_HEAD_MSK" />
 					<attribute id="Type" type="int32" value="1" />
@@ -82,7 +82,7 @@
 					<attribute id="ID" type="FixedString" value="9b31ef90-54f2-43a1-b84e-ee41098d7d5a" />
 					<attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Tattoo_EXTRA2_MSK" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Tattoo_EXTRA2_MSK.DDS" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Tattoo_C_MSK.DDS" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Tattoo_EXTRA2_MSK" />
 					<attribute id="Type" type="int32" value="1" />
@@ -111,7 +111,7 @@
                     <attribute id="ID" type="FixedString" value="3b920283-341b-4b41-9107-3489a324bee7" />
                     <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA_MSK" />
                     <attribute id="SRGB" type="bool" value="False" />
-                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_EXTRA_MSK.DDS" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_B_MSK.DDS" />
                     <attribute id="Streaming" type="bool" value="True" />
                     <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA_MSK" />
                     <attribute id="Type" type="int32" value="1" />
@@ -124,7 +124,7 @@
                     <attribute id="ID" type="FixedString" value="7dde51be-0b78-4db9-8a38-3bde4b4579f4" />
                     <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA2_MSK" />
                     <attribute id="SRGB" type="bool" value="False" />
-                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_EXTRA2_MSK.DDS" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_C_MSK.DDS" />
                     <attribute id="Streaming" type="bool" value="True" />
                     <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA2_MSK" />
                     <attribute id="Type" type="int32" value="1" />

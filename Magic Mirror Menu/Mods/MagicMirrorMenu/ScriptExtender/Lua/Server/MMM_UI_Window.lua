@@ -18,14 +18,14 @@ local raceTable={
 Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
     local race = Ext.Entity.Get(character).Race.Race
 	if not raceTable[race] then
-        Ext.Net.BroadcastMessage("ChangeAppearanceCompleted", "OnEnd")
+        Ext.Net.BroadcastMessage("ChangeAppearanceCompletedMMM", "OnEnd")
     end
 end)
 Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
     local race = Ext.Entity.Get(uuid).Race.Race
 	if not raceTable[race] then
         if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
-		    Ext.Net.BroadcastMessage("ChangeAppearanceStarted", "OnEnd")
+		    Ext.Net.BroadcastMessage("ChangeAppearanceStartedMMM", "OnEnd")
         end
     end
 end)

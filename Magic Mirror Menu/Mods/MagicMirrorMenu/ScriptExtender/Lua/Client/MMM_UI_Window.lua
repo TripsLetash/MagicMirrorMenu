@@ -111,8 +111,8 @@ w:SetStyle("WindowBorderSize", 5)
 --- AddTree fun(self:ExtuiTreeParent, a1:string):ImguiHandle
 
 Ext.Events.NetMessage:Subscribe(function(e) 
-    if (e.Channel == "ChangeAppearanceCompleted") then w.Visible = false w.Open = not w.Open end
-    if (e.Channel == "ChangeAppearanceStarted") then w.Visible = true w.Open = not w.Open end
+    if (e.Channel == "ChangeAppearanceCompletedMMM") then w.Visible = false w.Open = not w.Open end
+    if (e.Channel == "ChangeAppearanceStartedMMM") then w.Visible = true w.Open = not w.Open end
 end)
 
 

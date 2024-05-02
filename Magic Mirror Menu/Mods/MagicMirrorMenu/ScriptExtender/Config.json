@@ -1,5 +1,5 @@
 {
     "RequiredVersion": 16,
-    "ModTable": "MagicMirrorMenu",
+    "ModTable": "Magic Mirror Menu",
     "FeatureFlags": [ "Lua" ]
 }

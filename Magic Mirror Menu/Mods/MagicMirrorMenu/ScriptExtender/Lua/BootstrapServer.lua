@@ -8,7 +8,7 @@ MMM.modVersion = { major = 2, minor = 0, revision = 0 }
 
 local function OnSessionLoaded()
 
-    local ModInfo = Ext.Mod.GetMod("4806bd2a-929b-406e-b1d4-2e0e9cc23bb2")["Info"]
+    local ModInfo = Ext.Mod.GetMod("4415ed38-ca93-407d-863d-75d4c5a2941c")["Info"]
     MMM.modTableKey = ModInfo.Name
     MMM.modVersion = { major = ModInfo.ModVersion[1], minor = ModInfo.ModVersion[2], revision = ModInfo.ModVersion[3], build = ModInfo.ModVersion[4] }
 
