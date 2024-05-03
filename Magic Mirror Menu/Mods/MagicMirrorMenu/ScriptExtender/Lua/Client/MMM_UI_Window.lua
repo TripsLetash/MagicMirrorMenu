@@ -114,7 +114,6 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "ChangeAppearanceStartedMMM") then w.Visible = true w.Open = not w.Open end
 end)
 
-
 -- Ext.Events.KeyInput:Subscribe(
     
 -- function (e)

@@ -543,7 +543,6 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "makeupFaceAtlas1") then ApplyOverride(sender, "AtlasTexFaceMakeup", 1) end
     if (e.Channel == "makeupFaceAtlas2") then ApplyOverride(sender, "AtlasTexFaceMakeup", 2) end
     if (e.Channel == "makeupFaceAtlas3") then ApplyOverride(sender, "AtlasTexFaceMakeup", 3) end
-
     if (e.Channel == "tattooFace_Index1") then ApplyOverride(sender, "HeadIndex", 1) end
     if (e.Channel == "tattooFace_Index2") then ApplyOverride(sender, "HeadIndex", 2) end
     if (e.Channel == "tattooFace_Index3") then ApplyOverride(sender, "HeadIndex", 3) end

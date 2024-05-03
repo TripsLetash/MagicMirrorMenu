@@ -128,6 +128,8 @@ function Utils.GetBlueText(text)
     return coloredText
 end
 
+
+
 -- Get all party uuids
 function Utils.GetPartyWotD()
 	local characters = {}
