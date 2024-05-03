@@ -862,7 +862,5 @@ makeupHideCheckbox.OnChange = function()  Ext.Net.PostMessageToServer("MakeupOpa
 HalfIllithidCheckbox.OnChange = function()  Ext.Net.PostMessageToServer("Half_Illithid_Toggle", "OnClick") UpdateCC() end
 
 function UpdateCC()
-    --if Ext.UI.GetRoot():Child(1):Child(1):Child(21):Child(1) then
         Ext.UI.GetRoot():Child(1):Child(1):Child(21):Child(1).StartCharacterCreation:Execute()
-    --end
 end

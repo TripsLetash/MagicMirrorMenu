@@ -26,11 +26,20 @@ Ext.Osiris.RegisterListener("ChangeAppearanceCancelled", 1, "after", function(ch
         Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedMMM", "ChangeAppearanceCancelled")
     end
 end)
-Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
+Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "before", function(uuid, itemroot, item, _)
     local race = Ext.Entity.Get(uuid).Race.Race
     if not raceTable[race] then
         if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
             Utils.Wait(3000, function() Ext.Net.PostMessageToClient(uuid, "ChangeAppearanceStartedMMM", "MirrorUsed") end)
+        end
+    end
+end)
+
+Ext.Osiris.RegisterListener("UsingSpell", 5, "before", function(uuid, name, _, _, _, _)
+    if name == "Shout_Open_Mirror" then
+        local race = Ext.Entity.Get(uuid).Race.Race
+	    if not raceTable[race] then
+		    Utils.Wait(3000, function() Ext.Net.PostMessageToClient(uuid, "ChangeAppearanceStartedMMM", "MirrorUsed") end)
         end
     end
 end)
