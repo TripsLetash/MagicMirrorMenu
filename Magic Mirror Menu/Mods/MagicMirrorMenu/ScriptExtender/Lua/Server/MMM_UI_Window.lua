@@ -14,18 +14,23 @@ local raceTable={
 	["449f93dd-817f-4870-be6d-fbdb8f0dfb1d"]=true,
 	["309b9cc5-0156-4f64-b857-8cf83fa2160b"]=true
 }
-
 Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
     local race = Ext.Entity.Get(character).Race.Race
 	if not raceTable[race] then
-        Ext.Net.BroadcastMessage("ChangeAppearanceCompletedMMM", "OnEnd")
+        Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedMMM", "ChangeAppearanceCancelled")
+    end
+end)
+Ext.Osiris.RegisterListener("ChangeAppearanceCancelled", 1, "after", function(character) 
+    local race = Ext.Entity.Get(character).Race.Race
+	if not raceTable[race] then
+        Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedMMM", "ChangeAppearanceCancelled")
     end
 end)
 Ext.Osiris.RegisterListener("TemplateUseFinished", 4, "after", function(uuid, itemroot, item, _)
     local race = Ext.Entity.Get(uuid).Race.Race
-	if not raceTable[race] then
+    if not raceTable[race] then
         if (itemroot == "UNI_MagicMirror_72ae7a39-d0ce-4cb6-8d74-ebdf7cdccf91") then
-		    Ext.Net.BroadcastMessage("ChangeAppearanceStartedMMM", "OnEnd")
+            Utils.Wait(3000, function() Ext.Net.PostMessageToClient(uuid, "ChangeAppearanceStartedMMM", "MirrorUsed") end)
         end
     end
 end)
@@ -44,6 +49,7 @@ function SaveInit(character)
         PersistentVars[character].HalfIllithid = {}
     end
 end
+
 
 -- Klementines functions
 PersistentVars = {}
@@ -348,6 +354,11 @@ Overrides = {
 function PeerToUserID(u)
     -- all this for userid+1 usually smh
     return (u & 0xffff0000) | 0x0001
+end
+
+function UserIDtoPeer(u)
+    -- all this for userid+1 usually smh
+    return (u & 0xffff0000)
 end
 
 Ext.Events.NetMessage:Subscribe(function(e) 

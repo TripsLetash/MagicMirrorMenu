@@ -52,8 +52,6 @@ tABO:AddText("Color per layer of the Atlas, Red, Blue and Green are supported. A
 tABO:AddText("I suggest using vanilla menu for make-up color. Menu color for tattoos so they match body and face.")
 tABO:AddText("")
 
-
-
 tCRED:AddDummy(0,5)
 tCRED:AddSeparatorText("Authors:")
 tCRED:AddText("Trips")
@@ -70,6 +68,7 @@ tCRED:AddText("Down by the River Community")
 --w.Closeable = true
 w.Visible = false
 w.NoFocusOnAppearing = true
+w.Closeable = true
 w.Open = false
 w:SetStyle("WindowMinSize", 500, 500)
 w:SetStyle("WindowRounding", 30)
