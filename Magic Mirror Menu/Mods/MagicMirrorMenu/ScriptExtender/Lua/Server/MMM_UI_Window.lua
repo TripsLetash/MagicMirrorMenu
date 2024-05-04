@@ -1,4 +1,4 @@
-Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(_, _)  
+Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(_, _)
     local party = Osi.DB_PartyMembers:Get(nil)
     for i = #party, 1, -1 do
         local character = party[i][1]
@@ -14,13 +14,13 @@ local raceTable={
 	["449f93dd-817f-4870-be6d-fbdb8f0dfb1d"]=true,
 	["309b9cc5-0156-4f64-b857-8cf83fa2160b"]=true
 }
-Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character) 
+Ext.Osiris.RegisterListener("ChangeAppearanceCompleted", 1, "after", function(character)
     local race = Ext.Entity.Get(character).Race.Race
 	if not raceTable[race] then
         Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedMMM", "ChangeAppearanceCancelled")
     end
 end)
-Ext.Osiris.RegisterListener("ChangeAppearanceCancelled", 1, "after", function(character) 
+Ext.Osiris.RegisterListener("ChangeAppearanceCancelled", 1, "after", function(character)
     local race = Ext.Entity.Get(character).Race.Race
 	if not raceTable[race] then
         Ext.Net.PostMessageToClient(character, "ChangeAppearanceCompletedMMM", "ChangeAppearanceCancelled")
@@ -44,47 +44,68 @@ Ext.Osiris.RegisterListener("UsingSpell", 5, "before", function(uuid, name, _, _
     end
 end)
 
+-- Builds property table for a character so the tattoos stop washing off
 function SaveInit(character)
-    if not PersistentVars[character] then
-        PersistentVars[character] = {}
+    local charEnt = Ext.Entity.Get(character)
+
+    if not charEnt.Vars.MMMSaveData then
+        charEnt.Vars.MMMSaveData = {}
     end
-    if not PersistentVars[character].Shine then
-        PersistentVars[character].Shine = {}
+
+    local tempTable = charEnt.Vars.MMMSaveData -- For the sake of containing subtables within the save table and being able to synchronize them, we have to clone the table to reassign the entire thing
+
+    if not tempTable.Shine then
+        tempTable.Shine = {}
     end
-    if not PersistentVars[character].MakeupOpacity then
-        PersistentVars[character].MakeupOpacity = {}
+    if not tempTable.MakeupOpacity then
+        tempTable.MakeupOpacity = {}
     end
-    if not PersistentVars[character].HalfIllithid then
-        PersistentVars[character].HalfIllithid = {}
+    if not tempTable.HalfIllithid then
+        tempTable.HalfIllithid = {}
     end
+
+    charEnt.Vars.MMMSaveData = tempTable
 end
 
 
 -- Klementines functions
-PersistentVars = {}
- 
 function RevertOverride(character, overrideType)
+    local charEnt = Ext.Entity.Get(character)
+    local tempTable = charEnt.Vars.MMMSaveData -- See SaveInit()
+
     Osi.RemoveCustomMaterialOverride(character,
-        Overrides[overrideType][PersistentVars[character][overrideType]])
-    PersistentVars[character][overrideType] = nil
+        Overrides[overrideType][tempTable[overrideType]])
+    tempTable[overrideType] = nil
+
+    charEnt.Vars.MMMSaveData = tempTable
 end
 
 function ApplyOverride(character, overrideType, override)
-    if PersistentVars[character][overrideType] then
+    local charEnt = Ext.Entity.Get(character)
+    local tempTable = charEnt.Vars.MMMSaveData -- See SaveInit()
+
+    if charEnt.Vars.MMMSaveData[overrideType] then
         RevertOverride(character, overrideType)
     end
     Osi.AddCustomMaterialOverride(character, Overrides[overrideType][override])
-    PersistentVars[character][overrideType] = override
+    charEnt.Vars.MMMSaveData[overrideType] = override
+
+    charEnt.Vars.MMMSaveData = tempTable
 end
 
 function ToggleOverride(character, overrideType, toggleableOverride)
-    if PersistentVars[character][overrideType][toggleableOverride] then
+    local charEnt = Ext.Entity.Get(character)
+    local tempTable = charEnt.Vars.MMMSaveData -- See SaveInit()
+
+    if tempTable[overrideType][toggleableOverride] then
         Osi.RemoveCustomMaterialOverride(character, Overrides[overrideType][toggleableOverride])
-        PersistentVars[character][overrideType][toggleableOverride] = nil
+        tempTable[overrideType][toggleableOverride] = nil
     else
         Osi.AddCustomMaterialOverride(character, Overrides[overrideType][toggleableOverride])
-        PersistentVars[character][overrideType][toggleableOverride] = true
+        tempTable[overrideType][toggleableOverride] = true
     end
+
+    charEnt.Vars.MMMSaveData = tempTable
 end
 
 -- index done, opacity done,
@@ -157,7 +178,7 @@ Overrides = {
         "6203cacc-6f7b-490c-81f4-dd12744c2ac5",
         "f16462d5-0934-4d4a-a094-8f6d81eaaff6",
         "f896ba05-d5b0-4764-9429-46f76bf4a46d"
-        
+
     },
     Index = {
         "1b3b2029-90e4-479d-ab8a-9bb7f2bffe59",
@@ -370,29 +391,29 @@ function UserIDtoPeer(u)
     return (u & 0xffff0000)
 end
 
-Ext.Events.NetMessage:Subscribe(function(e) 
+Ext.Events.NetMessage:Subscribe(function(e)
     local sender = Osi.GetCurrentCharacter(PeerToUserID(e.UserID))
     SaveInit(sender)
     --Tattoo Buttons
     if (e.Channel == "tattooBody_Index1") then ApplyOverride(sender,"Index", 1) end
-    if (e.Channel == "tattooBody_Index2") then ApplyOverride(sender,"Index", 2) end 
-    if (e.Channel == "tattooBody_Index3") then ApplyOverride(sender,"Index", 3) end 
-    if (e.Channel == "tattooBody_Index4") then ApplyOverride(sender,"Index", 4) end 
-    if (e.Channel == "tattooBody_Index5") then ApplyOverride(sender,"Index", 5) end 
-    if (e.Channel == "tattooBody_Index6") then ApplyOverride(sender,"Index", 6) end 
-    if (e.Channel == "tattooBody_Index7") then ApplyOverride(sender,"Index", 7) end 
-    if (e.Channel == "tattooBody_Index8") then ApplyOverride(sender,"Index", 8) end 
-    if (e.Channel == "tattooBody_Index9") then ApplyOverride(sender,"Index", 9) end 
-    if (e.Channel == "tattooBody_Index10") then ApplyOverride(sender,"Index", 10) end 
-    if (e.Channel == "tattooBody_Index11") then ApplyOverride(sender,"Index", 11) end 
-    if (e.Channel == "tattooBody_Index12") then ApplyOverride(sender,"Index", 12) end 
-    if (e.Channel == "tattooBody_Index13") then ApplyOverride(sender,"Index", 13) end 
-    if (e.Channel == "tattooBody_Index14") then ApplyOverride(sender,"Index", 14) end 
-    if (e.Channel == "tattooBody_Index15") then ApplyOverride(sender,"Index", 15) end 
+    if (e.Channel == "tattooBody_Index2") then ApplyOverride(sender,"Index", 2) end
+    if (e.Channel == "tattooBody_Index3") then ApplyOverride(sender,"Index", 3) end
+    if (e.Channel == "tattooBody_Index4") then ApplyOverride(sender,"Index", 4) end
+    if (e.Channel == "tattooBody_Index5") then ApplyOverride(sender,"Index", 5) end
+    if (e.Channel == "tattooBody_Index6") then ApplyOverride(sender,"Index", 6) end
+    if (e.Channel == "tattooBody_Index7") then ApplyOverride(sender,"Index", 7) end
+    if (e.Channel == "tattooBody_Index8") then ApplyOverride(sender,"Index", 8) end
+    if (e.Channel == "tattooBody_Index9") then ApplyOverride(sender,"Index", 9) end
+    if (e.Channel == "tattooBody_Index10") then ApplyOverride(sender,"Index", 10) end
+    if (e.Channel == "tattooBody_Index11") then ApplyOverride(sender,"Index", 11) end
+    if (e.Channel == "tattooBody_Index12") then ApplyOverride(sender,"Index", 12) end
+    if (e.Channel == "tattooBody_Index13") then ApplyOverride(sender,"Index", 13) end
+    if (e.Channel == "tattooBody_Index14") then ApplyOverride(sender,"Index", 14) end
+    if (e.Channel == "tattooBody_Index15") then ApplyOverride(sender,"Index", 15) end
     if (e.Channel == "tattooBody_Index16") then ApplyOverride(sender,"Index", 16) end
-    if (e.Channel == "tattooBody_Index17") then ApplyOverride(sender,"Index", 17) end 
-    if (e.Channel == "tattooBody_Index18") then ApplyOverride(sender,"Index", 18) end 
-    if (e.Channel == "tattooBody_Index19") then ApplyOverride(sender,"Index", 19) end 
+    if (e.Channel == "tattooBody_Index17") then ApplyOverride(sender,"Index", 17) end
+    if (e.Channel == "tattooBody_Index18") then ApplyOverride(sender,"Index", 18) end
+    if (e.Channel == "tattooBody_Index19") then ApplyOverride(sender,"Index", 19) end
     if (e.Channel == "tattooBody_Index20") then ApplyOverride(sender,"Index", 20) end
     if (e.Channel == "tattooMetallic") then ToggleOverride(sender, "Shine", "Metalness") end
     if (e.Channel == "tattooColorFaceButton1Red") then ApplyOverride(sender, "FaceColor1", "Blue") end
@@ -531,7 +552,7 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "FaceOpacity_G") then ApplyOverride(sender, "FaceOpacity", "G") end
     if (e.Channel == "FaceOpacity_B") then ApplyOverride(sender, "FaceOpacity", "B") end
     if (e.Channel == "FaceOpacity_None") then ApplyOverride(sender, "FaceOpacity", "None") end
-    
+
     if (e.Channel == "MakeupOpacity_Show") then ToggleOverride(sender, "MakeupOpacity", "Show") end
 
     if (e.Channel == "tattooBodyAtlas1") then ApplyOverride(sender, "AtlasTexBody", 1) end
@@ -573,7 +594,7 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "makeupFace_Index12") then ApplyOverride(sender, "MakeupIndex", 12) end
     if (e.Channel == "makeupFace_Index13") then ApplyOverride(sender, "MakeupIndex", 13) end
     if (e.Channel == "makeupFace_Index14") then ApplyOverride(sender, "MakeupIndex", 14) end
-    if (e.Channel == "makeupFace_Index15") then ApplyOverride(sender, "MakeupIndex", 15) end    
+    if (e.Channel == "makeupFace_Index15") then ApplyOverride(sender, "MakeupIndex", 15) end
     if (e.Channel == "makeupFace_Index16") then ApplyOverride(sender, "MakeupIndex", 16) end
     if (e.Channel == "makeupFace_Index17") then ApplyOverride(sender, "MakeupIndex", 17) end
     if (e.Channel == "makeupFace_Index18") then ApplyOverride(sender, "MakeupIndex", 18) end
@@ -596,7 +617,7 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "makeupFace_Index35") then ApplyOverride(sender, "MakeupIndex", 35) end
     if (e.Channel == "makeupFace_Index36") then ApplyOverride(sender, "MakeupIndex", 36) end
     if (e.Channel == "makeupFace_Index37") then ApplyOverride(sender, "MakeupIndex", 37) end
-    if (e.Channel == "makeupFace_Index38") then ApplyOverride(sender, "MakeupIndex", 38) end    
+    if (e.Channel == "makeupFace_Index38") then ApplyOverride(sender, "MakeupIndex", 38) end
     if (e.Channel == "makeupFace_Index39") then ApplyOverride(sender, "MakeupIndex", 39) end
     if (e.Channel == "makeupFace_Index40") then ApplyOverride(sender, "MakeupIndex", 40) end
     if (e.Channel == "makeupFace_Index41") then ApplyOverride(sender, "MakeupIndex", 41) end

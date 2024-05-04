@@ -6,6 +6,12 @@ MMM.modPrefix = "MMM"
 MMM.modTableKey = ""
 MMM.modVersion = { major = 2, minor = 0, revision = 0 }
 
+Ext.Vars.RegisterUserVariable("MMMSaveData", {
+    Server = true,
+    Client = true,
+    SyncToClient = true
+})
+
 local function OnSessionLoaded()
 
     local ModInfo = Ext.Mod.GetMod("4415ed38-ca93-407d-863d-75d4c5a2941c")["Info"]
