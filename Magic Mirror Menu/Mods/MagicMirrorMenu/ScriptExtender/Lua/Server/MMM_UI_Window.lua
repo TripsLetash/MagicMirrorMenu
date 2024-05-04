@@ -78,6 +78,7 @@ function RevertOverride(character, overrideType)
     tempTable[overrideType] = nil
 
     charEnt.Vars.MMMSaveData = tempTable
+    Ext.Vars.SyncUserVariables()
 end
 
 function ApplyOverride(character, overrideType, override)
@@ -91,6 +92,7 @@ function ApplyOverride(character, overrideType, override)
     charEnt.Vars.MMMSaveData[overrideType] = override
 
     charEnt.Vars.MMMSaveData = tempTable
+    Ext.Vars.SyncUserVariables()
 end
 
 function ToggleOverride(character, overrideType, toggleableOverride)
@@ -106,6 +108,7 @@ function ToggleOverride(character, overrideType, toggleableOverride)
     end
 
     charEnt.Vars.MMMSaveData = tempTable
+    Ext.Vars.SyncUserVariables()
 end
 
 -- index done, opacity done,

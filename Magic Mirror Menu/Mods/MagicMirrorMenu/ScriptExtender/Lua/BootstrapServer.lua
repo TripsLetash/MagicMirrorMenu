@@ -9,8 +9,11 @@ MMM.modVersion = { major = 2, minor = 0, revision = 0 }
 Ext.Vars.RegisterUserVariable("MMMSaveData", {
     Server = true,
     Client = true,
-    SyncToClient = true
+    WriteableOnClient = true,
+    SyncToClient = true,
+    SyncToServer = true
 })
+_P("MMM SERV: Registered User Variables")
 
 local function OnSessionLoaded()
 
