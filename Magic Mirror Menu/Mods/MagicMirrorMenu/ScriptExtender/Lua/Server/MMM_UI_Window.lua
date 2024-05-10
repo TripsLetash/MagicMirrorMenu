@@ -555,9 +555,7 @@ Ext.Events.NetMessage:Subscribe(function(e)
     if (e.Channel == "FaceOpacity_G") then ApplyOverride(sender, "FaceOpacity", "G") end
     if (e.Channel == "FaceOpacity_B") then ApplyOverride(sender, "FaceOpacity", "B") end
     if (e.Channel == "FaceOpacity_None") then ApplyOverride(sender, "FaceOpacity", "None") end
-
     if (e.Channel == "MakeupOpacity_Show") then ToggleOverride(sender, "MakeupOpacity", "Show") end
-
     if (e.Channel == "tattooBodyAtlas1") then ApplyOverride(sender, "AtlasTexBody", 1) end
     if (e.Channel == "tattooBodyAtlas2") then ApplyOverride(sender, "AtlasTexBody", 2) end
     if (e.Channel == "tattooBodyAtlas3") then ApplyOverride(sender, "AtlasTexBody", 3) end
