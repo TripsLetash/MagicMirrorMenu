@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="2" />
+	<region id="SkeletonBank">
+		<node id="SkeletonBank">
+			<children>
+			</children>
+		</node>
+	</region>
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+			<!--Body Tattoo per Bodytype-->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="5120" />
+					<attribute id="ID" type="FixedString" value="f4da3cac-456b-4193-9293-5fc3dae5d4ad" />
+					<attribute id="Name" type="LSString" value="Skin_Atlas_Body_SHR_Tattoo_A_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/TATTOO/Skin_Atlas_Body_SHR_Tattoo_A_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Skin_Atlas_Body_SHR_Tattoo_A_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+				</node>				
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="5120" />
+					<attribute id="ID" type="FixedString" value="6380b7f9-87e6-4af5-a4ed-9fb453f560e5" />
+					<attribute id="Name" type="LSString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/TATTOO/Skin_Atlas_Body_SHR_Tattoo_B_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="5120" />
+					<attribute id="ID" type="FixedString" value="fd031187-a9ef-4d78-9ca6-3d21caff2bfa" />
+					<attribute id="Name" type="LSString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA2_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/TATTOO/Skin_Atlas_Body_SHR_Tattoo_C_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Skin_Atlas_Body_SHR_Tattoo_EXTRA2_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+				</node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="505e82ee-ed64-05cc-aa31-ieatpaste666" />
+                    <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Tattoo_A_MSK_unique" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Tattoo_A_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Tattoo_A_MSK_unique" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="9f914c05-8c8d-4b82-b16b-9708f53e05b8" />
+					<attribute id="Name" type="LSString" value="Trips_Skin_Atlas_Head_SHR_Tattoo_HEAD_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Tattoo_B_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Trips_Skin_Atlas_Head_SHR_Tattoo_HEAD_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="9b31ef90-54f2-43a1-b84e-ee41098d7d5a" />
+					<attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Tattoo_EXTRA2_MSK" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Tattoo_C_MSK.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Tattoo_EXTRA2_MSK" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+				</node>
+			
+			<!--makeup crackles and tattoo-->
+				
+                <node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="b1b4f910-ff12-4c53-ab28-db65fc3288ef" />
+                    <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Makeup_A_MSK_unique" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_A_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Makeup_A_MSK_unique" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="3b920283-341b-4b41-9107-3489a324bee7" />
+                    <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA_MSK" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_B_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA_MSK" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="7dde51be-0b78-4db9-8a38-3bde4b4579f4" />
+                    <attribute id="Name" type="LSString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA2_MSK" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/FACE/Skin_Atlas_Head_SHR_Makeup_C_MSK.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="Skin_Atlas_Head_SHR_Makeup_EXTRA2_MSK" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+		
+			<!--GlowMaps-->
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="0bb71ca0-9d31-4ccd-b0a8-3d0936a026c1" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_DEFAULT" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_DEFAULT.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_DEFAULT" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="9f50efb7-1883-4a82-bb4a-de074aa842b4" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_A" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_A.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_A" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="0b709924-f6d7-411d-95d6-67f5e601a937" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_B" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_B.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_B" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="69e5b46b-a631-41a5-a266-5f9b015ecb8d" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_C" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_C.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_C" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="f8959293-45b6-400f-984b-40651d7eb0f8" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_D" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_D.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_D" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="cb4469da-791d-41bc-ae4d-8f968b632048" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_E" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_E.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_E" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="f570fc02-a5a1-49fe-aa6f-930860144878" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_F" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_F.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_F" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="d5a16638-afda-4eab-9c54-c0489894e6de" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_G" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_G.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_G" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="2d939b6f-c4cc-4f0e-b048-11edff36b91a" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_H" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_H.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_H" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="0173daac-eea7-4477-895c-fe5baa161d2c" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_I" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_I.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_I" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="f9661b64-2399-4dee-b6c9-b141fa5bd204" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_J" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_J.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_J" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="dc5de325-299e-45fd-9dd8-6773ad442d91" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_K" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_K.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_K" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="8fe0b4f7-ab69-4cab-80e4-771fbca3eee9" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_L" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_L.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_L" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="37cd435f-cb9e-4f50-a019-8ade336b8e6e" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_M" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_M.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_M" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+				<node id="Resource">
+                    <attribute id="Depth" type="int32" value="1" />
+                    <attribute id="Height" type="int32" value="4096" />
+                    <attribute id="ID" type="FixedString" value="757fec93-6598-43c5-a9d2-e58519a80eb0" />
+                    <attribute id="Name" type="LSString" value="UNIQUE_GlowMap_GM_N" />
+                    <attribute id="SRGB" type="bool" value="False" />
+                    <attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/unique_tav/BODY/GLOWY/UNIQUE_GlowMap_GM_N.DDS" />
+                    <attribute id="Streaming" type="bool" value="True" />
+                    <attribute id="Template" type="FixedString" value="UNIQUE_GlowMap_GM_N" />
+                    <attribute id="Type" type="int32" value="1" />
+                    <attribute id="Width" type="int32" value="4096" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209034" />
+                </node>
+
+			</children>
+		</node>
+	</region>
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children></children>
+		</node>
+	</region>
+	<region id="MaterialBank">
+		<node id="MaterialBank">
+			<children>
+			</children>
+		</node>
+	</region>
+	<region id="AnimationSetBank">
+		<node id="AnimationSetBank">
+			<children>
+			</children>
+		</node>
+	</region>
+</save>
