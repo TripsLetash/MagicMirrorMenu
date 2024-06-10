@@ -103,64 +103,64 @@ tattooColorFaceRedRow1 = tattooColorFaceRedTable:AddRow()
 tattooColorFaceRedRow2 = tattooColorFaceRedTable:AddRow()
 --tattooColorFaceButtonSet = tattooColorFaceRedRow1:AddCell():AddButton("RED SET")
 --tattooColorFaceButtonShow = tattooColorFaceRedRow1:AddCell():AddButton("SHOW PARAMS")
-tattooColorFaceButton1Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton1Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton1Red.IDContext = "FaceRed01"
 tattooColorFaceButton1Red:SetColor("Button", {0,0,1,1}) --prot blue
-tattooColorFaceButton2Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton2Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton2Red.IDContext = "FaceRed02"
 tattooColorFaceButton2Red:SetColor("Button", {1,1,0,1}) --scourge yellow
-tattooColorFaceButton3Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton3Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton3Red.IDContext = "FaceRed03"
 tattooColorFaceButton3Red:SetColor("Button", {0,1,0,1}) --fallen green
-tattooColorFaceButton4Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton4Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton4Red.IDContext = "FaceRed04"
 tattooColorFaceButton4Red:SetColor("Button", {1,0,0,1}) --harb red
-tattooColorFaceButton5Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton5Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton5Red.IDContext = "FaceRed05"
 tattooColorFaceButton5Red:SetColor("Button", {1,0.00699541,0.2917707,1}) --pink
-tattooColorFaceButton6Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton6Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton6Red.IDContext = "FaceRed06"
 tattooColorFaceButton6Red:SetColor("Button", {1,0,1,1}) --purple
-tattooColorFaceButton7Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton7Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton7Red.IDContext = "FaceRed07"
 tattooColorFaceButton7Red:SetColor("Button", {1,1,1,1}) --white
-tattooColorFaceButton8Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton8Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton8Red.IDContext = "FaceRed08"
 tattooColorFaceButton8Red:SetColor("Button", {0,0,0,1}) --black
-tattooColorFaceButton9Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton9Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton9Red.IDContext = "FaceRed09"
 tattooColorFaceButton9Red:SetColor("Button", {0.2581829,0.05951124,0.00651209,1}) --brown
-tattooColorFaceButton10Red = tattooColorFaceRedRow1:AddCell():AddButton("  ")
+tattooColorFaceButton10Red = tattooColorFaceRedRow1:AddCell():AddButton("    ")
 tattooColorFaceButton10Red.IDContext = "FaceRed10"
 tattooColorFaceButton10Red:SetColor("Button", {1,0.3762622,0,1}) --orange
-tattooColorFaceButton11Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton11Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton11Red.IDContext = "FaceRed11"
 tattooColorFaceButton11Red:SetColor("Button", {0.4,0.78,0.73,1}) --fallen
-tattooColorFaceButton12Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton12Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton12Red.IDContext = "FaceRed12"
 tattooColorFaceButton12Red:SetColor("Button", {0.03,0.84,0.93,1}) --lightblue
-tattooColorFaceButton13Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton13Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton13Red.IDContext = "FaceRed13"
 tattooColorFaceButton13Red:SetColor("Button", {1,0.82,0.31,1}) --Pee yellow
-tattooColorFaceButton14Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton14Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton14Red.IDContext = "FaceRed14"
 tattooColorFaceButton14Red:SetColor("Button", {0.68,0.44,0,1}) --Gold
-tattooColorFaceButton15Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton15Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton15Red.IDContext = "FaceRed15"
 tattooColorFaceButton15Red:SetColor("Button", {0.99,0.7,1,1}) --Lightpink
-tattooColorFaceButton16Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton16Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton16Red.IDContext = "FaceRed16"
 tattooColorFaceButton16Red:SetColor("Button", {0.55,0.29,0.37,1}) --Darkpink
-tattooColorFaceButton17Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton17Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton17Red.IDContext = "FaceRed17"
 tattooColorFaceButton17Red:SetColor("Button", {0.59,0.59,0.59,1}) --Lightsilver
-tattooColorFaceButton18Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton18Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton18Red.IDContext = "FaceRed18"
 tattooColorFaceButton18Red:SetColor("Button", {0.26,0.26,0.26,1}) --DarkSilver
-tattooColorFaceButton19Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton19Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton19Red.IDContext = "FaceRed19"
 tattooColorFaceButton19Red:SetColor("Button", {0.79,0.61,0.88,1}) --Lightpurple
-tattooColorFaceButton20Red = tattooColorFaceRedRow2:AddCell():AddButton("  ")
+tattooColorFaceButton20Red = tattooColorFaceRedRow2:AddCell():AddButton("    ")
 tattooColorFaceButton20Red.IDContext = "FaceRed20"
 tattooColorFaceButton20Red:SetColor("Button", {0.28,0.4,0.29,1}) --Olive
 
@@ -169,64 +169,64 @@ tattooColorFaceHeaderGreen.DefaultOpen = true
 tattooColorFaceGreenTable = tattooColorFaceHeaderGreen:AddTable("", 10)
 tattooColorFaceGreenRow1 = tattooColorFaceGreenTable:AddRow()
 tattooColorFaceGreenRow2 = tattooColorFaceGreenTable:AddRow()
-tattooColorFaceButton1Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton1Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton1Green.IDContext = "FaceGreen01"
 tattooColorFaceButton1Green:SetColor("Button", {0,0,1,1}) --prot blue
-tattooColorFaceButton2Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton2Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton2Green.IDContext = "FaceGreen02"
 tattooColorFaceButton2Green:SetColor("Button", {1,1,0,1}) --scourge yellow
-tattooColorFaceButton3Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton3Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton3Green.IDContext = "FaceGreen03"
 tattooColorFaceButton3Green:SetColor("Button", {0,1,0,1}) --fallen green
-tattooColorFaceButton4Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton4Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton4Green.IDContext = "FaceGreen04"
 tattooColorFaceButton4Green:SetColor("Button", {1,0,0,1}) --harb Green
-tattooColorFaceButton5Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton5Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton5Green.IDContext = "FaceGreen05"
 tattooColorFaceButton5Green:SetColor("Button", {1,0.00699541,0.2917707,1}) --pink
-tattooColorFaceButton6Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton6Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton6Green.IDContext = "FaceGreen06"
 tattooColorFaceButton6Green:SetColor("Button", {1,0,1,1}) --purple
-tattooColorFaceButton7Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton7Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton7Green.IDContext = "FaceGreen07"
 tattooColorFaceButton7Green:SetColor("Button", {1,1,1,1}) --white
-tattooColorFaceButton8Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton8Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton8Green.IDContext = "FaceGreen08"
 tattooColorFaceButton8Green:SetColor("Button", {0,0,0,1}) --black
-tattooColorFaceButton9Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton9Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton9Green.IDContext = "FaceGreen09"
 tattooColorFaceButton9Green:SetColor("Button", {0.2581829,0.05951124,0.00651209,1}) --brown
-tattooColorFaceButton10Green = tattooColorFaceGreenRow1:AddCell():AddButton("  ")
+tattooColorFaceButton10Green = tattooColorFaceGreenRow1:AddCell():AddButton("    ")
 tattooColorFaceButton10Green.IDContext = "FaceGreen10"
 tattooColorFaceButton10Green:SetColor("Button", {1,0.3762622,0,1}) --orange
-tattooColorFaceButton11Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton11Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton11Green.IDContext = "FaceGreen11"
 tattooColorFaceButton11Green:SetColor("Button", {0.4,0.78,0.73,1}) --fallen
-tattooColorFaceButton12Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton12Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton12Green.IDContext = "FaceGreen12"
 tattooColorFaceButton12Green:SetColor("Button", {0.03,0.84,0.93,1}) --lightblue
-tattooColorFaceButton13Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton13Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton13Green.IDContext = "FaceGreen13"
 tattooColorFaceButton13Green:SetColor("Button", {1,0.82,0.31,1}) --Pee yellow
-tattooColorFaceButton14Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton14Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton14Green.IDContext = "FaceGreen14"
 tattooColorFaceButton14Green:SetColor("Button", {0.68,0.44,0,1}) --Gold
-tattooColorFaceButton15Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton15Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton15Green.IDContext = "FaceGreen15"
 tattooColorFaceButton15Green:SetColor("Button", {0.99,0.7,1,1}) --Lightpink
-tattooColorFaceButton16Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton16Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton16Green.IDContext = "FaceGreen16"
 tattooColorFaceButton16Green:SetColor("Button", {0.55,0.29,0.37,1}) --Darkpink
-tattooColorFaceButton17Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton17Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton17Green.IDContext = "FaceGreen17"
 tattooColorFaceButton17Green:SetColor("Button", {0.59,0.59,0.59,1}) --Lightsilver
-tattooColorFaceButton18Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton18Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton18Green.IDContext = "FaceGreen18"
 tattooColorFaceButton18Green:SetColor("Button", {0.26,0.26,0.26,1}) --DarkSilver
-tattooColorFaceButton19Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton19Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton19Green.IDContext = "FaceGreen19"
 tattooColorFaceButton19Green:SetColor("Button", {0.79,0.61,0.88,1}) --Lightpurple
-tattooColorFaceButton20Green = tattooColorFaceGreenRow2:AddCell():AddButton("  ")
+tattooColorFaceButton20Green = tattooColorFaceGreenRow2:AddCell():AddButton("    ")
 tattooColorFaceButton20Green.IDContext = "FaceGreen20"
 tattooColorFaceButton20Green:SetColor("Button", {0.28,0.4,0.29,1}) --Olive
 
@@ -235,64 +235,64 @@ tattooColorFaceHeaderBlue.DefaultOpen = true
 tattooColorFaceBlueTable = tattooColorFaceHeaderBlue:AddTable("", 10)
 tattooColorFaceBlueRow1 = tattooColorFaceBlueTable:AddRow()
 tattooColorFaceBlueRow2 = tattooColorFaceBlueTable:AddRow()
-tattooColorFaceButton1Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton1Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton1Blue.IDContext = "FaceBlue01"
 tattooColorFaceButton1Blue:SetColor("Button", {0,0,1,1}) --prot blue
-tattooColorFaceButton2Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton2Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton2Blue.IDContext = "FaceBlue02"
 tattooColorFaceButton2Blue:SetColor("Button", {1,1,0,1}) --scourge yellow
-tattooColorFaceButton3Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton3Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton3Blue.IDContext = "FaceBlue03"
 tattooColorFaceButton3Blue:SetColor("Button", {0,1,0,1}) --fallen Blue
-tattooColorFaceButton4Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton4Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton4Blue.IDContext = "FaceBlue04"
 tattooColorFaceButton4Blue:SetColor("Button", {1,0,0,1}) --harb Blue
-tattooColorFaceButton5Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton5Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton5Blue.IDContext = "FaceBlue05"
 tattooColorFaceButton5Blue:SetColor("Button", {1,0.00699541,0.2917707,1}) --pink
-tattooColorFaceButton6Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton6Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton6Blue.IDContext = "FaceBlue06"
 tattooColorFaceButton6Blue:SetColor("Button", {1,0,1,1}) --purple
-tattooColorFaceButton7Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton7Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton7Blue.IDContext = "FaceBlue07"
 tattooColorFaceButton7Blue:SetColor("Button", {1,1,1,1}) --white
-tattooColorFaceButton8Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton8Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton8Blue.IDContext = "FaceBlue08"
 tattooColorFaceButton8Blue:SetColor("Button", {0,0,0,1}) --black
-tattooColorFaceButton9Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton9Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton9Blue.IDContext = "FaceBlue09"
 tattooColorFaceButton9Blue:SetColor("Button", {0.2581829,0.05951124,0.00651209,1}) --brown
-tattooColorFaceButton10Blue = tattooColorFaceBlueRow1:AddCell():AddButton("  ")
+tattooColorFaceButton10Blue = tattooColorFaceBlueRow1:AddCell():AddButton("    ")
 tattooColorFaceButton10Blue.IDContext = "FaceBlue10"
 tattooColorFaceButton10Blue:SetColor("Button", {1,0.3762622,0,1}) --orange
-tattooColorFaceButton11Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton11Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton11Blue.IDContext = "FaceBlue11"
 tattooColorFaceButton11Blue:SetColor("Button", {0.4,0.78,0.73,1}) --fallen
-tattooColorFaceButton12Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton12Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton12Blue.IDContext = "FaceBlue12"
 tattooColorFaceButton12Blue:SetColor("Button", {0.03,0.84,0.93,1}) --lightblue
-tattooColorFaceButton13Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton13Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton13Blue.IDContext = "FaceBlue13"
 tattooColorFaceButton13Blue:SetColor("Button", {1,0.82,0.31,1}) --Pee yellow
-tattooColorFaceButton14Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton14Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton14Blue.IDContext = "FaceBlue14"
 tattooColorFaceButton14Blue:SetColor("Button", {0.68,0.44,0,1}) --Gold
-tattooColorFaceButton15Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton15Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton15Blue.IDContext = "FaceBlue15"
 tattooColorFaceButton15Blue:SetColor("Button", {0.99,0.7,1,1}) --Lightpink
-tattooColorFaceButton16Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton16Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton16Blue.IDContext = "FaceBlue16"
 tattooColorFaceButton16Blue:SetColor("Button", {0.55,0.29,0.37,1}) --Darkpink
-tattooColorFaceButton17Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton17Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton17Blue.IDContext = "FaceBlue17"
 tattooColorFaceButton17Blue:SetColor("Button", {0.59,0.59,0.59,1}) --Lightsilver
-tattooColorFaceButton18Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton18Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton18Blue.IDContext = "FaceBlue18"
 tattooColorFaceButton18Blue:SetColor("Button", {0.26,0.26,0.26,1}) --DarkSilver
-tattooColorFaceButton19Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton19Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton19Blue.IDContext = "FaceBlue19"
 tattooColorFaceButton19Blue:SetColor("Button", {0.79,0.61,0.88,1}) --Lightpurple
-tattooColorFaceButton20Blue = tattooColorFaceBlueRow2:AddCell():AddButton("  ")
+tattooColorFaceButton20Blue = tattooColorFaceBlueRow2:AddCell():AddButton("    ")
 tattooColorFaceButton20Blue.IDContext = "FaceBlue20"
 tattooColorFaceButton20Blue:SetColor("Button", {0.28,0.4,0.29,1}) --Olive
 
@@ -301,64 +301,64 @@ tattooColorHeaderRed.DefaultOpen = true
 tattooColorRedTable = tattooColorHeaderRed:AddTable("", 10)
 tattooColorRedRow1 = tattooColorRedTable:AddRow()
 tattooColorRedRow2 = tattooColorRedTable:AddRow()
-tattooColorButton1Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton1Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton1Red.IDContext = "Red01"
 tattooColorButton1Red:SetColor("Button", {0,0,1,1}) --prot blue
-tattooColorButton2Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton2Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton2Red.IDContext = "Red02"
 tattooColorButton2Red:SetColor("Button", {1,1,0,1}) --scourge yellow
-tattooColorButton3Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton3Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton3Red.IDContext = "Red03"
 tattooColorButton3Red:SetColor("Button", {0,1,0,1}) --fallen green
-tattooColorButton4Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton4Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton4Red.IDContext = "Red04"
 tattooColorButton4Red:SetColor("Button", {1,0,0,1}) --harb red
-tattooColorButton5Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton5Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton5Red.IDContext = "Red05"
 tattooColorButton5Red:SetColor("Button", {1,0.00699541,0.2917707,1}) --pink
-tattooColorButton6Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton6Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton6Red.IDContext = "Red06"
 tattooColorButton6Red:SetColor("Button", {1,0,1,1}) --purple
-tattooColorButton7Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton7Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton7Red.IDContext = "Red07"
 tattooColorButton7Red:SetColor("Button", {1,1,1,1}) --white
-tattooColorButton8Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton8Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton8Red.IDContext = "Red08"
 tattooColorButton8Red:SetColor("Button", {0,0,0,1}) --black
-tattooColorButton9Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton9Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton9Red.IDContext = "Red09"
 tattooColorButton9Red:SetColor("Button", {0.2581829,0.05951124,0.00651209,1}) --brown
-tattooColorButton10Red = tattooColorRedRow1:AddCell():AddButton("  ")
+tattooColorButton10Red = tattooColorRedRow1:AddCell():AddButton("    ")
 tattooColorButton10Red.IDContext = "Red10"
 tattooColorButton10Red:SetColor("Button", {1,0.3762622,0,1}) --orange
-tattooColorButton11Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton11Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton11Red.IDContext = "Red11"
 tattooColorButton11Red:SetColor("Button", {0.4,0.78,0.73,1}) --fallen
-tattooColorButton12Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton12Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton12Red.IDContext = "Red12"
 tattooColorButton12Red:SetColor("Button", {0.03,0.84,0.93,1}) --lightblue
-tattooColorButton13Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton13Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton13Red.IDContext = "Red13"
 tattooColorButton13Red:SetColor("Button", {1,0.82,0.31,1}) --Pee yellow
-tattooColorButton14Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton14Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton14Red.IDContext = "Red14"
 tattooColorButton14Red:SetColor("Button", {0.68,0.44,0,1}) --Gold
-tattooColorButton15Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton15Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton15Red.IDContext = "Red15"
 tattooColorButton15Red:SetColor("Button", {0.99,0.7,1,1}) --Lightpink
-tattooColorButton16Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton16Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton16Red.IDContext = "Red16"
 tattooColorButton16Red:SetColor("Button", {0.55,0.29,0.37,1}) --Darkpink
-tattooColorButton17Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton17Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton17Red.IDContext = "Red17"
 tattooColorButton17Red:SetColor("Button", {0.59,0.59,0.59,1}) --Lightsilver
-tattooColorButton18Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton18Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton18Red.IDContext = "Red18"
 tattooColorButton18Red:SetColor("Button", {0.26,0.26,0.26,1}) --DarkSilver
-tattooColorButton19Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton19Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton19Red.IDContext = "Red19"
 tattooColorButton19Red:SetColor("Button", {0.79,0.61,0.88,1}) --Lightpurple
-tattooColorButton20Red = tattooColorRedRow2:AddCell():AddButton("  ")
+tattooColorButton20Red = tattooColorRedRow2:AddCell():AddButton("    ")
 tattooColorButton20Red.IDContext = "Red20"
 tattooColorButton20Red:SetColor("Button", {0.28,0.4,0.29,1}) --Olive
 
@@ -367,64 +367,64 @@ tattooColorHeaderGreen.DefaultOpen = true
 tattooColorGreenTable = tattooColorHeaderGreen:AddTable("", 10)
 tattooColorGreenRow1 = tattooColorGreenTable:AddRow()
 tattooColorGreenRow2 = tattooColorGreenTable:AddRow()
-tattooColorButton1Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton1Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton1Green.IDContext = "Green01"
 tattooColorButton1Green:SetColor("Button", {0,0,1,1}) --prot blue
-tattooColorButton2Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton2Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton2Green.IDContext = "Green02"
 tattooColorButton2Green:SetColor("Button", {1,1,0,1}) --scourge yellow
-tattooColorButton3Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton3Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton3Green.IDContext = "Green03"
 tattooColorButton3Green:SetColor("Button", {0,1,0,1}) --fallen green
-tattooColorButton4Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton4Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton4Green.IDContext = "Green04"
 tattooColorButton4Green:SetColor("Button", {1,0,0,1}) --harb Green
-tattooColorButton5Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton5Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton5Green.IDContext = "Green05"
 tattooColorButton5Green:SetColor("Button", {1,0.00699541,0.2917707,1}) --pink
-tattooColorButton6Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton6Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton6Green.IDContext = "Green06"
 tattooColorButton6Green:SetColor("Button", {1,0,1,1}) --purple
-tattooColorButton7Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton7Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton7Green.IDContext = "Green07"
 tattooColorButton7Green:SetColor("Button", {1,1,1,1}) --white
-tattooColorButton8Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton8Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton8Green.IDContext = "Green08"
 tattooColorButton8Green:SetColor("Button", {0,0,0,1}) --black
-tattooColorButton9Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton9Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton9Green.IDContext = "Green09"
 tattooColorButton9Green:SetColor("Button", {0.2581829,0.05951124,0.00651209,1}) --brown
-tattooColorButton10Green = tattooColorGreenRow1:AddCell():AddButton("  ")
+tattooColorButton10Green = tattooColorGreenRow1:AddCell():AddButton("    ")
 tattooColorButton10Green.IDContext = "Green10"
 tattooColorButton10Green:SetColor("Button", {1,0.3762622,0,1}) --orange
-tattooColorButton11Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton11Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton11Green.IDContext = "Green11"
 tattooColorButton11Green:SetColor("Button", {0.4,0.78,0.73,1}) --fallen
-tattooColorButton12Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton12Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton12Green.IDContext = "Green12"
 tattooColorButton12Green:SetColor("Button", {0.03,0.84,0.93,1}) --lightblue
-tattooColorButton13Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton13Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton13Green.IDContext = "Green13"
 tattooColorButton13Green:SetColor("Button", {1,0.82,0.31,1}) --Pee yellow
-tattooColorButton14Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton14Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton14Green.IDContext = "Green14"
 tattooColorButton14Green:SetColor("Button", {0.68,0.44,0,1}) --Gold
-tattooColorButton15Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton15Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton15Green.IDContext = "Green15"
 tattooColorButton15Green:SetColor("Button", {0.99,0.7,1,1}) --Lightpink
-tattooColorButton16Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton16Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton16Green.IDContext = "Green16"
 tattooColorButton16Green:SetColor("Button", {0.55,0.29,0.37,1}) --Darkpink
-tattooColorButton17Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton17Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton17Green.IDContext = "Green17"
 tattooColorButton17Green:SetColor("Button", {0.59,0.59,0.59,1}) --Lightsilver
-tattooColorButton18Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton18Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton18Green.IDContext = "Green18"
 tattooColorButton18Green:SetColor("Button", {0.26,0.26,0.26,1}) --DarkSilver
-tattooColorButton19Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton19Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton19Green.IDContext = "Green19"
 tattooColorButton19Green:SetColor("Button", {0.79,0.61,0.88,1}) --Lightpurple
-tattooColorButton20Green = tattooColorGreenRow2:AddCell():AddButton("  ")
+tattooColorButton20Green = tattooColorGreenRow2:AddCell():AddButton("    ")
 tattooColorButton20Green.IDContext = "Green20"
 tattooColorButton20Green:SetColor("Button", {0.28,0.4,0.29,1}) --Olive
 
@@ -433,64 +433,64 @@ tattooColorHeaderBlue.DefaultOpen = true
 tattooColorBlueTable = tattooColorHeaderBlue:AddTable("", 10)
 tattooColorBlueRow1 = tattooColorBlueTable:AddRow()
 tattooColorBlueRow2 = tattooColorBlueTable:AddRow()
-tattooColorButton1Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton1Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton1Blue.IDContext = "Blue01"
 tattooColorButton1Blue:SetColor("Button", {0,0,1,1}) --prot blue
-tattooColorButton2Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton2Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton2Blue.IDContext = "Blue02"
 tattooColorButton2Blue:SetColor("Button", {1,1,0,1}) --scourge yellow
-tattooColorButton3Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton3Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton3Blue.IDContext = "Blue03"
 tattooColorButton3Blue:SetColor("Button", {0,1,0,1}) --fallen Blue
-tattooColorButton4Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton4Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton4Blue.IDContext = "Blue04"
 tattooColorButton4Blue:SetColor("Button", {1,0,0,1}) --harb Blue
-tattooColorButton5Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton5Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton5Blue.IDContext = "Blue05"
 tattooColorButton5Blue:SetColor("Button", {1,0.00699541,0.2917707,1}) --pink
-tattooColorButton6Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton6Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton6Blue.IDContext = "Blue06"
 tattooColorButton6Blue:SetColor("Button", {1,0,1,1}) --purple
-tattooColorButton7Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton7Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton7Blue.IDContext = "Blue07"
 tattooColorButton7Blue:SetColor("Button", {1,1,1,1}) --white
-tattooColorButton8Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton8Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton8Blue.IDContext = "Blue08"
 tattooColorButton8Blue:SetColor("Button", {0,0,0,1}) --black
-tattooColorButton9Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton9Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton9Blue.IDContext = "Blue09"
 tattooColorButton9Blue:SetColor("Button", {0.2581829,0.05951124,0.00651209,1}) --brown
-tattooColorButton10Blue = tattooColorBlueRow1:AddCell():AddButton("  ")
+tattooColorButton10Blue = tattooColorBlueRow1:AddCell():AddButton("    ")
 tattooColorButton10Blue.IDContext = "Blue10"
 tattooColorButton10Blue:SetColor("Button", {1,0.3762622,0,1}) --orange
-tattooColorButton11Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton11Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton11Blue.IDContext = "Blue11"
 tattooColorButton11Blue:SetColor("Button", {0.4,0.78,0.73,1}) --fallen
-tattooColorButton12Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton12Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton12Blue.IDContext = "Blue12"
 tattooColorButton12Blue:SetColor("Button", {0.03,0.84,0.93,1}) --lightblue
-tattooColorButton13Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton13Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton13Blue.IDContext = "Blue13"
 tattooColorButton13Blue:SetColor("Button", {1,0.82,0.31,1}) --Pee yellow
-tattooColorButton14Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton14Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton14Blue.IDContext = "Blue14"
 tattooColorButton14Blue:SetColor("Button", {0.68,0.44,0,1}) --Gold
-tattooColorButton15Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton15Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton15Blue.IDContext = "Blue15"
 tattooColorButton15Blue:SetColor("Button", {0.99,0.7,1,1}) --Lightpink
-tattooColorButton16Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton16Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton16Blue.IDContext = "Blue16"
 tattooColorButton16Blue:SetColor("Button", {0.55,0.29,0.37,1}) --Darkpink
-tattooColorButton17Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton17Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton17Blue.IDContext = "Blue17"
 tattooColorButton17Blue:SetColor("Button", {0.59,0.59,0.59,1}) --Lightsilver
-tattooColorButton18Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton18Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton18Blue.IDContext = "Blue18"
 tattooColorButton18Blue:SetColor("Button", {0.26,0.26,0.26,1}) --DarkSilver
-tattooColorButton19Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton19Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton19Blue.IDContext = "Blue19"
 tattooColorButton19Blue:SetColor("Button", {0.79,0.61,0.88,1}) --Lightpurple
-tattooColorButton20Blue = tattooColorBlueRow2:AddCell():AddButton("  ")
+tattooColorButton20Blue = tattooColorBlueRow2:AddCell():AddButton("    ")
 tattooColorButton20Blue.IDContext = "Blue20"
 tattooColorButton20Blue:SetColor("Button", {0.28,0.4,0.29,1}) --Olive
 
@@ -499,64 +499,64 @@ tattooColorHeaderGlow.DefaultOpen = true
 tattooColorGlowTable = tattooColorHeaderGlow:AddTable("", 10)
 tattooColorGlowRow1 = tattooColorGlowTable:AddRow()
 tattooColorGlowRow2 = tattooColorGlowTable:AddRow()
-glowmapButton1 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton1 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton1.IDContext = "Glow01"
 glowmapButton1:SetColor("Button", {0,0,1,1}) --prot Glow
-glowmapButton2 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton2 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton2.IDContext = "Glow02"
 glowmapButton2:SetColor("Button", {1,1,0,1}) --scourge yellow
-glowmapButton3 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton3 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton3.IDContext = "Glow03"
 glowmapButton3:SetColor("Button", {0,1,0,1}) --fallen Glow
-glowmapButton4 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton4 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton4.IDContext = "Glow04"
 glowmapButton4:SetColor("Button", {1,0,0,1}) --harb Glow
-glowmapButton5 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton5 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton5.IDContext = "Glow05"
 glowmapButton5:SetColor("Button", {1,0.00699541,0.2917707,1}) --pink
-glowmapButton6 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton6 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton6.IDContext = "Glow06"
 glowmapButton6:SetColor("Button", {1,0,1,1}) --purple
-glowmapButton7 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton7 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton7.IDContext = "Glow07"
 glowmapButton7:SetColor("Button", {1,1,1,1}) --white
-glowmapButton8 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton8 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton8.IDContext = "Glow08"
 glowmapButton8:SetColor("Button", {0,0,0,1}) --black
-glowmapButton9 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton9 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton9.IDContext = "Glow09"
 glowmapButton9:SetColor("Button", {0.2581829,0.05951124,0.00651209,1}) --brown
-glowmapButton10 = tattooColorGlowRow1:AddCell():AddButton("  ")
+glowmapButton10 = tattooColorGlowRow1:AddCell():AddButton("    ")
 glowmapButton10.IDContext = "Glow10"
 glowmapButton10:SetColor("Button", {1,0.3762622,0,1}) --orange
-glowmapButton11 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton11 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton11.IDContext = "Glow11"
 glowmapButton11:SetColor("Button", {0.4,0.78,0.73,1}) --fallen
-glowmapButton12 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton12 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton12.IDContext = "Glow12"
 glowmapButton12:SetColor("Button", {0.03,0.84,0.93,1}) --lightGlow
-glowmapButton13 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton13 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton13.IDContext = "Glow13"
 glowmapButton13:SetColor("Button", {1,0.82,0.31,1}) --Pee yellow
-glowmapButton14 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton14 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton14.IDContext = "Glow14"
 glowmapButton14:SetColor("Button", {0.68,0.44,0,1}) --Gold
-glowmapButton15 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton15 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton15.IDContext = "Glow15"
 glowmapButton15:SetColor("Button", {0.99,0.7,1,1}) --Lightpink
-glowmapButton16 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton16 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton16.IDContext = "Glow16"
 glowmapButton16:SetColor("Button", {0.55,0.29,0.37,1}) --Darkpink
-glowmapButton17 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton17 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton17.IDContext = "Glow17"
 glowmapButton17:SetColor("Button", {0.59,0.59,0.59,1}) --Lightsilver
-glowmapButton18 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton18 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton18.IDContext = "Glow18"
 glowmapButton18:SetColor("Button", {0.26,0.26,0.26,1}) --DarkSilver
-glowmapButton19 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton19 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton19.IDContext = "Glow19"
 glowmapButton19:SetColor("Button", {0.79,0.61,0.88,1}) --Lightpurple
-glowmapButton20 = tattooColorGlowRow2:AddCell():AddButton("  ")
+glowmapButton20 = tattooColorGlowRow2:AddCell():AddButton("    ")
 glowmapButton20.IDContext = "Glow20"
 glowmapButton20:SetColor("Button", {0.28,0.4,0.29,1}) --Olive
 --Post messages for UI

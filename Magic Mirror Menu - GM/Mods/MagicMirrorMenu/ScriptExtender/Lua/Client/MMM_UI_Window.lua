@@ -68,7 +68,7 @@ tCRED:AddText("Down by the River Community")
 --w.Closeable = true
 w.Visible = false
 w.NoFocusOnAppearing = true
-w.Closeable = true
+w.Closeable = false
 w.Open = false
 w:SetStyle("WindowMinSize", 500, 500)
 w:SetStyle("WindowRounding", 30)
